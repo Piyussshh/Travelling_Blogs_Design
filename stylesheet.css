@@ -1,0 +1,1828 @@
+body
+{
+	    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.blue
+{
+	color: #3685fc;
+}
+/*.triangle-up {
+	visibility: hidden;
+	    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #3685fc;
+    position: absolute;
+    right: 176px;
+    bottom: 292px;
+}*/
+#background
+{
+	width: 100%;
+	height: 100vh;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/3-1920x1282.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+}
+#navsm
+{
+	width: 100%;
+	height: 55px;
+	background: white;
+	padding:5px 20px;
+}
+#navsm h2
+{
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-left:15%;
+   padding-right: 15%;
+}
+#navsm h3
+{
+	color: #3685fc;
+}
+#navo
+{   
+	width: 84%;
+    height: 100px;
+    position: relative;
+    top: 46px;
+    left: 112px;
+    right: 0px;
+}
+#navo form
+{
+	    background: white;
+    height: 80%;
+}
+#navo ul
+{
+	list-style: none;
+
+
+}
+#navo ul h3
+{
+	padding:21px 15px 0 15px;
+}
+
+#navo ul li
+{
+	padding: 27px 15px 0px 15px;
+	font-weight: 500;
+	font-family: Roboto;
+	font-size:18px;
+}
+#navo ul li:hover
+{
+	color: #3685fc;
+}
+
+#navo ul li i
+{
+	position: relative;
+    left: 26rem;
+    font-size: 1.25rem;
+    top: 2px;
+}
+.visible
+{
+	    visibility: visible;
+    transform: translate3d(0,-8px,0);
+    -webkit-transform: translate3d(0,-8px,0);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.visible2
+{
+	visibility: visible;
+}
+
+#main #search
+{
+            width: 300px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    border-top: 3px solid #3685fc;
+    left: 69%;
+    top: 134px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+
+#main #search input
+{
+	    width: 70%;
+    margin-right: 0px;
+    position: relative;
+    padding-right: 0px;
+    left: 6px;
+    height: 100%;
+}
+#main #search button
+{
+	background-color: black;
+    color: white;
+    border: 0px;
+    height: 100%;
+    
+    position: relative;
+    font-size: 13px;
+    
+    bottom: 1px;
+}
+#main #search button:hover
+{
+	background-color: #3685fc;
+}
+#main .content
+{
+	position: relative;
+	top:30%;
+	
+}
+#main .content a
+{
+	color:white;
+}
+#main .content #fonts
+{
+   font-size: 19px;
+   font-family: "Plairfair Display"
+   color:white;
+   padding: 0px 0px 10px;
+}
+#main .content h3
+{
+	margin-top: 10px;
+	font-weight: 600;
+}
+#main .content  #fontl
+{
+   font-size: 48px;
+   font-family: "Plairfair Display"
+   color:white;
+
+}
+#main .container 
+{
+	position: relative;
+	top:60%;
+}
+#main .row .image-box
+{
+	height: 64px;
+}
+#main .row .image-box:hover
+{ 
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+
+}
+
+#main .row .image-box img
+{
+	width: 103.19px;
+	height: 59.84px;
+}
+
+#second .row
+{
+	padding-left: 90px  ;
+    padding-right: 20px ;
+    padding-top: 110px ;
+    padding-bottom: 100px ;
+    margin:0;
+
+}
+.row .image-box-1
+{
+	width: 294.656px;
+	height: 375.250px;
+}
+ .row .image-box-1 img
+{
+	width: 367.656px;
+	height: 257.359px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+}
+ .row .image-box-1:hover #hover
+{ 
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+
+
+}
+.row .image-box-1 :hover h6
+{
+	color: #3685fc;
+}
+.row .image-box-1 .container{
+	width: 367px;
+}
+
+.date
+{
+	font-weight: 50;
+     font-size:12px;
+     font-family: Roboto;
+	letter-spacing: 1px;
+	color: #999999;
+}
+
+#background-2
+{
+	width: 100%;
+	height: 100%;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2019/02/Untitled-1-2.png");
+	background-position: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#third
+{
+	
+	width: 100%;
+	height: 674px;
+    
+	padding: 110px 0px;
+	background-color: #f9f9f9 !important;
+
+}
+#third .row
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#third .row img
+{
+	height: 453.33px;
+	width: 453.33px;
+	border-radius: 50%;
+}
+#third .row #mountains
+{
+	width: 100%;
+    height: 100%;
+    background: url(https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2019/02/Untitled-1-2.png);
+    background-position: center;
+ 	position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    background-size: contain;
+}
+#third .row h3{
+	font-family: Plairflair Display;
+	font-size: 38px;
+	font-weight: 600;
+	margin:10px 0px 26px;
+}
+#third .row h4{
+	    color: #666666;
+    font-family: Sacramento !important;
+    font-size: 36px !important;
+    line-height: 1 !important;
+}
+#third .row p
+{
+	color: #222222;
+    font-family: Roboto !important;
+    line-height: 1.8 !important;
+    font-size: 16px;
+}
+#food
+{
+	width: 100%;
+	height: 782px;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background: white;
+}
+#food #description
+{
+	width: 50%;
+	position:relative;
+	left: 25%;
+	padding: 14px;
+}
+#food .row
+{
+	margin: 0;
+    margin-left: 55px;
+    padding-top: 20px;
+   
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+#food h2
+{
+    font-family: Plaifair Display;
+    font-size: 38px;
+    font-weight: 800;
+
+}
+#background-3
+{
+	background-image:   url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1920x1280.jpg");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	position: absolute;
+}
+
+.nature
+{
+	width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+	height: inherit;
+	
+}
+.container .row
+{
+	
+	margin:0;
+}
+
+#fourth .row h3
+{
+	font-family: Plairfair Display;
+	font-size: 38px;
+}
+.image-card
+{
+	height: 326px;
+	width: 232px;
+	padding-left: 19px;
+	padding-right: 19px;
+
+}
+.image-card:hover h4
+{
+	color: #e2e2e2;
+}
+.image-card:hover #hover
+{
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+}
+
+.image-card img
+{
+	width: 232.44px;
+	height: 162.7px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+
+}
+.image-card .content
+{
+	width: 232px;
+	height: 326px;
+	padding: 13px 10px 10px;
+}
+.image-card .content a
+{ 
+	color:white;
+    font-size: 10px !important;
+    letter-spacing: 1px !important;
+
+}
+.image-card .content h4
+{
+	font-size: 18px;
+	font-family: roboto;
+	font-weight: 700;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.image-card .content .date1
+{
+
+	font-size: 10px;
+	line-height: 1;
+	letter-spacing: 1px;
+	color:#E2E2E2;
+	margin-bottom: 11px;
+	margin-top: 8px;
+    
+}
+#fourth .row
+{
+	position: relative;
+	z-index: 10;
+	top: 319px;
+}
+
+#blue
+{
+	background:#3685fc;
+	width: 100%;
+	height: 440px;
+}
+#section .col-lg-3
+{
+	width: 232px;
+}
+#pl-105px
+{
+	padding-left: 105px;
+}
+#pl-74px
+{
+    padding-left: 74px;
+}
+#pl-38px
+{
+	padding-left: 38px;
+}
+#contact
+{
+	height: 470px;
+	width: 100%;
+	background-color: color;
+	padding-left: 95px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+#contact .row
+{
+	margin:0px;
+}
+#contact .row h5
+
+{ 
+   font-family: Plairflair Display;
+   font-size: 20px;
+   margin:10px 0px 30px;
+   font-weight: 600;
+}
+#contact .row p
+{
+      font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#contact .row .row p:hover
+{
+	color: black;
+}
+#contact .row button:hover
+{
+   background:  black;
+}
+#contact .row input
+{
+	width: 346.66px;
+	height: 44px;
+	 color: #444;
+    border: 1px solid #e1e1e1;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+#contact .row button
+{
+	width: 346.66px;
+	height: 42px;
+	
+    font-size: 13px ;
+    line-height: 2.8 !important;
+    outline: none;
+    padding: 3px 18px;
+    color: white;
+}
+
+#footer
+{
+  background-color: #f9f9f9 ;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#footer ul
+{
+	list-style: none;
+	padding:0px;
+}
+#footer li
+{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#footer #pl-50px
+{
+	padding-left: 130px;
+}
+#footer .row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+@media (max-width: 1200px){
+
+
+	#background
+{
+	width: 100%;
+	height:725px;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/3-1920x1282.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navo
+{   
+	width: 93%;
+    height: 100px;
+    position: relative;
+    top: 38px;
+    left: 35px;
+    right: 0px;
+}
+#navo form
+{
+	    background: white;
+    height: 80%;
+}
+#navo ul h3
+{
+	padding:25px 0px 0 8px;
+    font-size:24px;
+}
+
+#navo ul li
+{
+	padding: 30px 15px 0px 0px;
+	font-weight: 500;
+	font-family: Roboto;
+	font-size:18px;
+}
+#navo ul li i
+{
+	position: relative;
+    left: 25rem;
+    font-size: 1rem;
+    top: 2px;
+}
+#main #search
+{
+    width: 252px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    border-top: 3px solid #3685fc;
+    left: 68%;
+    top: 125px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+#main .content
+{
+	position: relative;
+	top:30%;
+	padding-right: 10px;
+   padding-left: 10px
+
+	
+}
+#main .content  #fontl
+{
+   font-size:45px;
+   font-family: "Plairfair Display"
+   color:white;
+   
+
+
+}
+
+#main{
+	width: 100%;
+	height: 725px;
+	background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+}
+#main .container 
+{
+	position: relative;
+	top:55%;
+	
+	padding: 0px
+
+
+}
+
+
+#main .row .image-box
+{
+	height: 130px;
+	width: 163px;
+	margin: 0px;
+}
+
+#main .row .image-box img
+{
+	width: 162.66px;
+	height: 94.33px;
+}
+ #second .row
+{
+	padding-left: 15px  ;
+    padding-right:15px ;
+    padding-top: 120px ;
+    padding-bottom: 10px ;
+    margin:0;
+
+}  
+#second .row .container
+{
+	margin: 0px;
+	width: 338px;
+}
+.row .image-box-1 img
+{
+	width: 338px;
+	height: 236.63px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+}
+
+.row .image-box-1
+{
+	width: 338px;
+	height: 500px;
+}
+
+#third
+{
+	
+	width: 100%;
+	height: 650px;
+    
+	
+	padding-top:70px;
+	background-color: #f9f9f9 !important;
+
+}
+#third .row
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#third .row img
+{
+    margin-left: 0px;
+	height: 416.25px;
+	width: 416.25px;
+	border-radius: 50%;
+	margin-top:40px;
+}
+#third .row h4{
+	    color: #666666;
+    font-family: Sacramento !important;
+    font-size: 38px !important;
+    line-height: 1 !important;
+    padding-top: 20px
+}
+#food
+{
+	width: 100%;
+	height:780px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background: white;
+}
+#food #description
+{
+	width: 100%;
+	position:relative;
+	left: 0;
+	padding: 14px;
+}
+#food .row
+{
+	margin: 0;
+    margin-left: 10px;
+    padding-top: 20px;
+   
+    padding-left: 0px;
+    padding-right: 5px;
+}
+#food .row .container
+{
+	width: 212.33px;
+
+}
+#background-3
+{
+	background-image:   url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1920x1280.jpg");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	position: absolute;
+}
+
+.nature
+{
+	width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+	height: inherit;
+
+	
+}
+#fourth
+{
+	position: relative;
+}
+#fourth .row
+{
+	position: absolute;
+	z-index: 10;
+	top: 330px;
+	margin:0px;
+	padding: 10px
+}
+#fourth .row h3
+{
+	font-size: 34px;
+
+}
+#blue
+{
+	background:#3685fc;
+	width: 100%;
+	height: 850px;
+}
+.image-card
+{
+	height: 500px;
+	width: 212.66px;
+	padding-left: 16px;
+	padding-right: 0px;
+
+}
+.image-card:hover h4
+{
+	color: #e2e2e2;
+}
+.image-card:hover #hover
+{
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+}
+#pl-105px
+{
+	padding-left: 74px;
+}
+#pl-74px
+{
+        padding-left: 52px;
+}
+#pl-38px
+{
+	padding-left: 26px;
+}
+.image-card img
+{
+	width: 212.66px;
+	height: 148.86px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+
+}
+.image-card .content
+{
+	width: 212.66px;
+	height:400px;
+	padding: 13px 10px 10px;
+}
+#fourth .row p
+{
+	margin-bottom: 40px;
+}
+#contact
+{
+	height: 370px;
+	width: 100%;
+	background-color: color;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#contact .row a img
+{
+	width: 203px;
+	height: 150px;
+}
+#contact .row h5
+
+{
+     margin-top:60px;
+}
+#contact .row input
+{
+	width: 203.3px;
+	height: 44px;
+	 color: #444;
+    border: 1px solid #e1e1e1;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+#contact .row button
+{
+	width: 203.3px;
+	height: 42px;
+	
+    font-size: 13px ;
+    line-height: 2.8 !important;
+    outline: none;
+    padding: 3px 18px;
+    color: white;
+}
+#footer
+{
+  background-color: #f9f9f9 ;
+  width: 100%;
+  height: 80px;
+  padding: 20px 10px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#footer ul
+{
+	list-style: none;
+	margin:0px;
+	padding-left:10px;
+	padding-bottom: 10px;
+}
+
+#footer #pl-50px
+{
+	padding-left: 0px;
+}
+
+
+}
+
+
+@media (max-width: 992px){
+
+	#background
+{
+	width: 100%;
+	height:725px;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/3-1920x1282.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navo
+{   
+	width: 93%;
+    height: 75px;
+    position: relative;
+    top: 38px;
+    left: 35px;
+    right: 0px;
+}
+#navo form
+{
+	    background: white;
+    height: 80%;
+}
+#navo ul h3
+{
+	padding:16px 0px 0 8px;
+    font-size:22px;
+}
+
+#navo ul li
+{
+	padding: 20px 15px 0px 0px;
+	font-weight: 500;
+	font-family: Roboto;
+	font-size:16px;
+}
+#navo ul li i
+{
+	position: relative;
+    left: 8rem;
+    font-size: 1rem;
+    top: 2px;
+}
+#main #search
+{
+            width: 252px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    border-top: 3px solid #3685fc;
+    left: 64%;
+    top: 107px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+#main .content
+{
+	position: relative;
+	top:25%;
+	padding-right: 30px;
+   padding-left: 30px
+
+	
+}
+#main .content  #fontl
+{
+   font-size:35px;
+   font-family: "Plairfair Display"
+   color:white;
+   
+
+
+}
+
+#main{
+	width: 100%;
+	height: 725px;
+	background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+}
+#main .container 
+{
+	position: relative;
+	top:55%;
+	
+	padding: 0px
+
+
+}
+
+
+#main .row .image-box
+{
+	height: 130px;
+	width: 163px;
+	margin: 0px;
+}
+
+#main .row .image-box img
+{
+	width: 162.66px;
+	height: 94.33px;
+}
+ #second .row
+{
+	padding-left: 6px  ;
+    padding-right: 20px ;
+    padding-top: 50px ;
+    padding-bottom: 10px ;
+    margin:0;
+
+}  
+#second .row .container
+{
+	margin: 0px;
+	width:212.33px;
+}
+.row .image-box-1 img
+{
+	width: 212.33px;
+	height: 148.63px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+}
+
+.row .image-box-1
+{
+	width: 213px;
+	height: 460.8px;
+}
+
+#third
+{
+	
+	width: 100%;
+	height: 650px;
+    
+	
+	padding-top:58px;
+	background-color: #f9f9f9 !important;
+
+}
+#third .row
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#third .row img
+{
+    margin-left: 10px;
+	height: 266.156px;
+	width: 266.156px;
+	border-radius: 50%;
+	margin-top:150px;
+}
+#third .row h4{
+	    color: #666666;
+    font-family: Sacramento !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+}
+#food
+{
+	width: 100%;
+	height:700px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background: white;
+}
+#food #description
+{
+	width: 100%;
+	position:relative;
+	left: 0;
+	padding: 14px;
+}
+#food .row
+{
+	margin: 0;
+    margin-left: 10px;
+    padding-top: 20px;
+   
+    padding-left: 0px;
+    padding-right: 5px;
+}
+#food .row .container
+{
+	width: 212.33px;
+
+}
+#background-3
+{
+	background-image:   url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1920x1280.jpg");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 220px;
+	width: 100%;
+	position: absolute;
+}
+
+.nature
+{
+	width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+	height: inherit;
+
+	
+}
+#fourth
+{
+	position: relative;
+}
+#fourth .row
+{
+	position: absolute;
+	z-index: 10;
+	top: 160px;
+	margin:0px;
+	padding: 10px
+}
+#blue
+{
+	background:#3685fc;
+	width: 100%;
+	height: 650px;
+}
+.image-card
+{
+	height: 500px;
+	width: 131.54px;
+	padding-left: 16px;
+	padding-right: 0px;
+
+}
+.image-card:hover h4
+{
+	color: #e2e2e2;
+}
+.image-card:hover #hover
+{
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+}
+#pl-105px
+{
+	padding-left: 74px;
+}
+#pl-74px
+{
+        padding-left: 52px;
+}
+#pl-38px
+{
+	padding-left: 26px;
+}
+.image-card img
+{
+	width: 131.547px;
+	height: 92.078px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+
+}
+.image-card .content
+{
+	width: 131.547px;
+	height:400px;
+	padding: 13px 10px 10px;
+}
+#fourth .row p
+{
+	margin-bottom: 40px;
+}
+#contact
+{
+	height: 370px;
+	width: 100%;
+	background-color: color;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#contact .row a img
+{
+	width: 203px;
+	height: 150px;
+}
+#contact .row h5
+
+{
+     margin-top:60px;
+}
+#contact .row input
+{
+	width: 203.3px;
+	height: 44px;
+	 color: #444;
+    border: 1px solid #e1e1e1;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+#contact .row button
+{
+	width: 203.3px;
+	height: 42px;
+	
+    font-size: 13px ;
+    line-height: 2.8 !important;
+    outline: none;
+    padding: 3px 18px;
+    color: white;
+}
+#footer
+{
+  background-color: #f9f9f9 ;
+  width: 100%;
+  height: 80px;
+  padding: 20px 10px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#footer ul
+{
+	list-style: none;
+	margin:0px;
+	padding-left:10px;
+	padding-bottom: 10px;
+}
+
+#footer #pl-50px
+{
+	padding-left: 0px;
+}
+
+
+}
+
+@media (max-width: 768px){
+
+	#background
+{
+	width: 100%;
+	height:650px;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/3-1920x1282.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main .content
+{
+	position: relative;
+	top:40%;
+	
+}
+#main .content  #fontl
+{
+   font-size:30px;
+   font-family: "Plairfair Display"
+   color:white;
+
+}
+
+#main{
+	width: 100%;
+	height: 650px;
+	background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+}
+#main .container 
+{
+	position: relative;
+	top:55%;
+	margin: 0px;
+	padding: 0px
+
+
+}
+
+#navsm h2
+{
+   margin-left: 20%;
+   margin-right: 10%;
+   padding-left:15%;
+   padding-right: 15%;
+}
+
+
+#main .row .image-box
+{
+	height: 130px;
+	width: 163px;
+	margin: 0px;
+}
+
+#main .row .image-box img
+{
+	width: 162.66px;
+	height: 94.33px;
+}
+ #second .row
+{
+	padding-left: 6px  ;
+    padding-right: 20px ;
+    padding-top: 50px ;
+    padding-bottom: 10px ;
+    margin:0;
+
+}  
+#second .row .container
+{
+	margin: 0px;
+	width:524px;
+}
+.row .image-box-1 img
+{
+	width: 524px;
+	height: 366.797px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+}
+ .row .image-box-1:hover #hover
+{ 
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;  
+}
+.row .image-box-1
+{
+	width: 524px;
+	height: 565.8px;
+}
+
+#third
+{
+	
+	width: 100%;
+	height: 900px;
+    
+	
+	padding-top:58px;
+	background-color: #f9f9f9 !important;
+
+}
+#third .row
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#third .row img
+{
+    margin-left: 100px;
+	height: 314.39px;
+	width: 314.39px;
+	border-radius: 50%;
+}
+#third .row h4{
+	    color: #666666;
+    font-family: Sacramento !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+}
+#food
+{
+	width: 100%;
+	height:1950px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background: white;
+}
+#food #description
+{
+	width: 100%;
+	position:relative;
+	left: 0;
+	padding: 14px;
+}
+#food .row
+{
+	margin: 0;
+    margin-left: 10px;
+    padding-top: 20px;
+   
+    padding-left: 0px;
+    padding-right: 5px;
+}
+#food .row .container
+{
+	width: 524px;
+
+}
+#background-3
+{
+	background-image:   url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1920x1280.jpg");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 220px;
+	width: 100%;
+	position: absolute;
+}
+
+.nature
+{
+	width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+	height: inherit;
+
+	
+}
+#fourth
+{
+	position: relative;
+}
+#fourth .row
+{
+	position: absolute;
+	z-index: 10;
+	top: 160px;
+	margin:0px;
+}
+#blue
+{
+	background:#3685fc;
+	width: 100%;
+	height: 1940px;
+}
+.image-card
+{
+	height: 530px;
+	width: 524px;
+	padding-left: 16px;
+	padding-right: 0px;
+
+}
+.image-card:hover h4
+{
+	color: #e2e2e2;
+}
+.image-card:hover #hover
+{
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+}
+#pl-105px
+{
+	padding: 0px;
+}
+#pl-74px
+{
+    padding-left: 0px;
+}
+#pl-38px
+{
+	padding-left: 0px;
+}
+.image-card img
+{
+	width: 524px;
+	height: 311.500px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+
+}
+.image-card .content
+{
+	width: 445px;
+	height:200px;
+	padding: 13px 10px 10px;
+}
+#fourth .row p
+{
+	margin-bottom: 40px;
+}
+#contact
+{
+	height: 870px;
+	width: 100%;
+	background-color: color;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#contact .row a img
+{
+	width: 445px;
+	height: 150px;
+}
+#contact .row h5
+
+{
+     margin-top:60px;
+}
+#contact .row input
+{
+	width: 524px;
+	height: 44px;
+	 color: #444;
+    border: 1px solid #e1e1e1;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+#contact .row button
+{
+	width: 524px;
+	height: 42px;
+	
+    font-size: 13px ;
+    line-height: 2.8 !important;
+    outline: none;
+    padding: 3px 18px;
+    color: white;
+}
+#footer
+{
+  background-color: #f9f9f9 ;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#footer ul
+{
+	list-style: none;
+	padding-left:50px;
+}
+
+
+}
+@media (max-width: 576px){
+#background
+{
+	width: 100%;
+	height:600px;
+	background: url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/3-1920x1282.jpg");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main .content
+{
+	position: relative;
+	top:40%;
+	
+}
+#main .content  #fontl
+{
+   font-size:30px;
+   font-family: "Plairfair Display"
+   color:white;
+
+}
+
+#main{
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+}
+
+#main .row .image-box img
+{
+	width: 134.98px;
+	height: 78.281px;
+}
+ #second .row
+{
+	padding-left: 10px  ;
+    padding-right: 20px ;
+    padding-top: 50px ;
+    padding-bottom: 10px ;
+    margin:0;
+
+}  
+.row .image-box-1 img
+{
+	width: 445px;
+	height: 311.500px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+}
+ .row .image-box-1:hover #hover
+{ 
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;  
+}
+.row .image-box-1
+{
+	width: 294.656px;
+	height: 530.250px;
+}
+
+#third
+{
+	
+	width: 100%;
+	height: 900px;
+    
+	padding-top: 60px 
+	padding-top:60px;
+	background-color: #f9f9f9 !important;
+
+}
+#third .row
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#third .row img
+{
+    margin-left: 70px;
+	height: 267px;
+	width: 267px;
+	border-radius: 50%;
+}
+#third .row h4{
+	    color: #666666;
+    font-family: Sacramento !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+}
+#food
+{
+	width: 100%;
+	height:1830px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background: white;
+}
+#food #description
+{
+	width: 100%;
+	position:relative;
+	left: 0;
+	padding: 14px;
+}
+#food .row
+{
+	margin: 0;
+    margin-left: 10px;
+    padding-top: 20px;
+   
+    padding-left: 0px;
+    padding-right: 5px;
+}
+#background-3
+{
+	background-image:   url("https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1920x1280.jpg");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 220px;
+	width: 485px;
+	position: absolute;
+}
+
+.nature
+{
+	width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+	height: inherit;
+
+	
+}
+#fourth
+{
+	position: relative;
+}
+#fourth .row
+{
+	position: absolute;
+	z-index: 10;
+	top: 160px;
+	margin:0px;
+}
+#blue
+{
+	background:#3685fc;
+	width: 100%;
+	height: 1970px;
+}
+.image-card
+{
+	height: 530px;
+	width: 232px;
+	padding-left: 16px;
+	padding-right: 0px;
+
+}
+.image-card:hover h4
+{
+	color: #e2e2e2;
+}
+.image-card:hover #hover
+{
+	box-shadow: 0 15px 45px -5px rgba(7,10,25,.25);
+	transform: translate(0,-2px);
+     -webkit-transform: translate(0,-2px);
+     transition: .5s;
+}
+#pl-105px
+{
+	padding: 0px;
+}
+#pl-74px
+{
+    padding-left: 0px;
+}
+#pl-38px
+{
+	padding-left: 0px;
+}
+.image-card img
+{
+	width: 445px;
+	height: 311.500px;
+	box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+
+}
+.image-card .content
+{
+	width: 445px;
+	height:200px;
+	padding: 13px 10px 10px;
+}
+#fourth .row p
+{
+	margin-bottom: 40px;
+}
+#contact
+{
+	height: 950px;
+	width: 100%;
+	background-color: color;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+}
+
+#contact .row a img
+{
+	width: 445px;
+	height: 150px;
+}
+#contact .row h5
+
+{
+     margin-top:60px;
+}
+#contact .row input
+{
+	width: 445px;
+	height: 44px;
+	 color: #444;
+    border: 1px solid #e1e1e1;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+#contact .row button
+{
+	width: 445px;
+	height: 42px;
+	
+    font-size: 13px ;
+    line-height: 2.8 !important;
+    outline: none;
+    padding: 3px 18px;
+    color: white;
+}
+#footer
+{
+  background-color: #f9f9f9 ;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+}
+#footer ul
+{
+	list-style: none;
+	padding-left:50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <title>Task-1</title>
+  </head>
+  <body>
+    <div id="background" class="col-xs-12">
+      <div id="main">
+        <div id="navsm" class="d-md-none">
+          <h3 class="d-inline float-left"><i class="fas fa-grip-lines"></i></h3>
+          <h2 class="d-inline text-center">Nomad</h2>
+           <h3 class="d-inline float-right"><i  class="fas fa-search"></i></h3>
+          
+        </div>
+         <div id="navo" class="d-none d-md-block ">
+
+          <form action="#">
+            
+            
+            <ul class="d-flex align-items-start justify-content-start">
+              <h3 > Nomad</h3>
+              <li class="ml-5 blue">Home</li>
+              <li>Place</li>
+              <li>Food</li>
+              <li>Culture</li>
+              <li>Natural</li>
+              <li>Wildlife</li>
+              
+              <li ><i id="trigger" class="fas fa-search"></i></li>
+
+
+
+            </ul>
+            
+          </form>
+        </div>
+        <div class="triangle-up"></div>
+        <div id="search">
+          <input type="text" >
+          <button>Search</button>
+        </div>
+        <div class="content text-center  text-white">
+          <a href="#" id="fonts">Places</a><br>
+          <h3><a id="fontl" href="">A HIKE THORUOGHT THE GRAND CANYON</a></h3>
+        </div>
+          <div class="container text-white">
+          <div class="row pb-4">
+            <div class="col-4">
+              <div class="image-box">
+                <img src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-324x400.jpg" >
+                
+
+              </div>
+            </div>
+            <div class="col-4">
+              
+                    <div class="image-box">
+                <img src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/7-324x400.jpg">
+
+                
+                  <!-- <h6 class="d-inline">An Awesome Adventure in Greenland</h6>
+                  <p>Read more</p>
+                
+                 -->
+
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="image-box">
+                <img src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/12-324x400.jpg" class="img-fluid" alt="Responsive image">
+                
+
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="second">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-5">
+           <h2>
+            Places
+           </h2>
+           <p class="my-4">
+            Nullam ornare turpis eget enim eleifend laoreet. Phasellus facilisis nunc eu nisi ullamcorper venenatis. Sed varius eget massa sit amet semper.
+           </p>
+           <h6 class="mt-3"><a href="#">See more places</a></h6>
+              
+        </div> 
+        <div class="col-12 col-md-4 col-lg-4">
+            <div class="image-box-1">
+              <img id="hover" src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/6-696x412.jpg">
+              <div class="container">
+                 <a class="d-block py-3" href="">PLACES</a>
+                  <h6 class="pb-1"><strong>City Guide for Vienna</strong></h6>
+                  <p class="date">OCTOBER 4, 2018</p>
+                  <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+              </div>
+
+            </div>
+
+
+        </div>
+        <div class="col-12  col-md-4 col-lg-4">
+             <div class="image-box-1">
+              <img id="hover" src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/4-696x529.jpg" >
+              <div class="container">
+                 <a class="d-block py-3" href="">PLACES</a>
+            <h6 class="pb-1"><strong>The Amazon Rainforest in Bolivia</strong></h6>
+            <p class="date">OCTOBER 4, 2018</p>
+            <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+              </div>
+
+            </div>
+
+
+      </div>
+    </div>
+  </div>
+  
+      <div id="third">
+       
+       
+         <div class="row">
+           <div class="col-md-5 col-lg-5 ">
+             <img src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/profile.jpg" >
+           </div>
+           <div class="col-md-7 col-lg-7">
+             <div id="mountains">
+              </div>
+
+
+              <h6 class="mt-5 ">Hi! I'm</h6>
+              <h3 >Mariah Johnson</h3>
+              <p class="my-2">Aenean vel pulvinar lorem, id sodales est. Phasellus a molestie dui. Maecenas consequat vehicula erat in porttitor. Quisque at varius nulla, in congue eros. Nulla a finibus dolor. Integer lorem elit, vestibulum imperdiet justo cursus, tincidunt cursus tellus. Etiam sed efficitur mauris, eu pharetra tellus. Donec volutpat purus tortor, eget fringilla ipsum convallis et.</p><br>
+              <p>Pellentesque et felis ut nisi dapibus tempor. Curabitur efficitur nisl nunc. Nunc feugiat mi tellus, a feugiat enim consequat ac. Donec vel justo vel sem rhoncus tristique a quis lorem.</p>
+              <h4 class="mt-3">Mariah Johnson</h4>
+               
+             
+           </div>
+
+        
+       </div>
+
+
+        
+      </div>
+      <div id="food">
+
+        <div class="container text-center">
+          <h2>FOOD</h2>
+        
+        <div id="description">
+          <p>Nullam ornare turpis eget enim eleifend laoreet. Phasellus facilisis nunc eu nisi ullamcorper venenatis. Sed varius eget massa sit amet semper.</p>
+        </div>
+
+        
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+            <div class="image-box-1">
+              <img id="hover" src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/15-696x569.jpg" >
+              <div class="container">
+                 <a class="d-block py-3" href="">FOOD</a>
+            <h6 class="pb-1"><strong>Food Tasting in Bruny Island</strong></h6>
+            <p class="date">OCTOBER 4, 2018</p>
+            <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+              </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+            <div class="image-box-1">
+              <img id="hover" src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/16-696x554.jpg" >
+              <div class="container">
+                 <a class="d-block py-3" href="">FOOD</a>
+            <h6 class="pb-1"><strong>Favorite Eating Spots in Singapore</strong></h6>
+            <p class="date">OCTOBER 4, 2018</p>
+            <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+              </div>
+
+            </div>
+        </div>
+        <div class=" col-md-4 col-lg-4">
+            <div class="image-box-1">
+              <img id="hover" src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/13-696x464.jpg" >
+              <div class="container">
+                 <a class="d-block py-3" href="">FOOD</a>
+            <h6 class="pb-1"><strong>My Guide to Eating in Austin</strong></h6>
+            <p class="date">OCTOBER 4, 2018</p>
+            <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+              </div>
+
+            </div>
+        </div>
+
+      </div>
+    </div>
+    
+      <div id="background-3">
+        <div class="nature">
+          
+        </div>
+       </div>
+       <section id="fourth">
+    
+         <div class="row text-white">
+             <div class=" col-md-3 col-lg-3  ">
+                <h3 class="mb-5">Nature & Wildlife</h3>
+                <p>Nullam ornare turpis eget enim eleifend laoreet. Phasellus facilisis nunc eu nisi ullamcorper venenatis. Sed varius eget massa sit amet semper.</p>
+             </div>
+             <div class=" col-md-3 col-lg-3" id="pl-105px">
+                <div class="image-card">
+                  <img id="hover"src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/24-696x407.jpg">
+                  <div class="content">
+                    <a  href="">NATURE</a>
+                    <h4>Glacier National Park Adventure</h4>
+                    <p class="date1">OCTOBER 4, 2018</p>
+                    <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+                  </div>
+              </div>
+            </div>
+             <div class=" col-md-3 col-lg-3"id="pl-74px">
+                  <div class="image-card">
+                  <img id="hover"src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/23-1392x928.jpg" >
+                  <div class="content">
+                    <a  href="">NATURE</a>
+                    <h4>An Awesome Adventure in Greenland</h4>
+                    <p class="date1">OCTOBER 4, 2018</p>
+                    <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+                  </div>
+               </div>
+              </div>
+              <div class=" col-md-3 col-lg-3"id="pl-38px">
+                  <div class="image-card">
+                  <img id="hover"src="https://demo.tagdiv.com/newspaper_nomad/wp-content/uploads/2018/10/22-1392x1044.jpg" >
+                  <div class="content">
+                    <a  href="">NATURE</a>
+                    <h4>Surreal Snorkeling in the Galapagos</h4>
+                    <p class="date1">OCTOBER 4, 2018</p>
+                    <p>Today we were travelling north from Gorno Draglishte to Sofia (via Rila...</p>
+                  </div>
+                </div>
+              </div>
+               
+             
+         </div>
+         </section>
+         <div id="blue">
+
+         </div>
+         <div id="contact">
+           
+             <div class="row">
+                 <div class=" col-md-4 col-lg-4">
+                   <h5>Where I'm now</h5>
+                 <a href="https://maps.google.com/maps?ll=6.268678,-75.596392&z=2&t=m&hl=en-GB&gl=RO&mapclient=embed&q=Medellin%20Antioquia%20Colombia"><img src="map.png" ></a>
+                 </div>
+                 <div class=" col-md-4 col-lg-4">
+                   <h5>Follow me</h5>
+                   <div class="row">
+                     <div class=" col-4 col-md-4 col-lg-4">
+                      <h4><i class="fab fa-facebook-f"></i></h4>
+                      <p>Facebook</p>
+                    </div>
+                     <div class="col-4 col-md-4 col-lg-4">
+                       <h3><i class="fab fa-flickr"></i></h3>
+                       <p>Flickr</p>
+                     </div>
+                     <div class="col-4 col-md-4 col-lg-4">
+                       <h3><i class="fab fa-instagram"></i></h3>
+                       <p>Instagram</p>
+                     </div>
+                   </div>
+                  <div class="row mt-4">
+                   <div class=" col-4 col-md-4 col-lg-4">
+                     <h3><i class="fab fa-pinterest-p"></i></h3>
+                     <p>Pinterest</p>
+                   </div>
+                   <div class=" col-4 col-md-4 col-lg-4">
+                     <h3><i class="fab fa-twitter"></i></h3>
+                     <p>Twitter</p>
+                   </div>
+                   <div class=" col-4 col-md-4 col-lg-4">
+                     <h3><i class="fab fa-youtube"></i></h3>
+                     <p>Youtube</p>
+                   </div>
+                 </div>
+               </div>
+
+               <div class=" col-md-4 col-lg-4">
+                 <h5>Stay in Touch!</h5>
+                 <p>To be updated with all the latest news, offers and special announcements.</p>
+                 <input type="text" placeholder="Your email address">
+                 <button class="btn btn-lg btn-primary d-block">Subscribe</button>
+               </div>
+
+             </div>
+          
+         </div>
+         <div id="footer">
+          
+            <div class="row">
+              <div class="col-md-4 col-lg-4" id="pl-50px">
+                <p>&copy; Copyright-Newspaper by Tagdiv</p>
+              </div>
+              <div class=" d-none d-md-block d-lg-block col-md-4 col-lg-4">
+                <ul class="d-lg-none d-flex justify-content-start align-items-start">
+                  <li>Home</li>
+                  <li>Places</li>
+                  <li>Food</li>
+                  <li>Culture</li>
+                  <li>Nature</li>
+                  <li>Wildlife</li>
+
+                </ul>
+              </div>
+              <div class="d-block d-md-none d-lg-block col-md-4 col-lg-4 ">
+                <ul class="d-flex justify-content-start align-items-start">
+                  <li>Home</li>
+                  <li>Places</li>
+                  <li>Food</li>
+                  <li>Culture</li>
+                  <li>Nature</li>
+                  <li>Wildlife</li>
+
+                </ul>
+                
+              </div>
+            </div>
+          
+           
+         </div>
+      
+
+
+
+
+   
+  <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
